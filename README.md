@@ -1,20 +1,32 @@
 # Dengue Stickman Animation — Science is Wonderful! 2026
 
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)]
+(https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Vídeo educativo de animação de bonecos palito sobre a dengue, desenvolvido para exibição na feira de ciências **Science is Wonderful! 2026** em Bruxelas (Booth #18 — *Health detectives: how diseases spread through insects*).
+Vídeo educativo de animação de bonecos palito sobre a dengue, desenvolvido para exibição 
+na feira de ciências **Science is Wonderful! 2026** em Bruxelas (Booth #18 — *Health 
+detectives: how diseases spread through insects*).
 
-O vídeo explica de forma lúdica e acessível o ciclo de vida do mosquito *Aedes aegypti*, a transmissão da dengue e as diferentes estratégias de controle (individual, coletivo e ambiental), voltado para o público de 7 a 18 anos.
+O vídeo explica de forma lúdica e acessível o ciclo de vida do mosquito *Aedes aegypti*, 
+a transmissão da dengue e as diferentes estratégias de controle (individual, coletivo e ambiental), 
+voltado para o público de 7 a 18 anos.
 
 ---
 
 ## Créditos
 
-**Conteúdo científico:** Equipe SiW 2026 — Raquel Martins Lana (BSC), Andria Nicodemou (BSC) e Tatiana Docile (UERJ).
+**Conteúdo científico:** Equipe SiW 2026 — Raquel Martins Lana (BSC), Andria Nicodemou (BSC) 
+e Tatiana Docile (UERJ).  
+Acesse o site do [Science is Wonderful](https://marie-sklodowska-curie-actions.ec.europa.eu/science-is-wonderful/science-is-wonderful).
 
-**Adaptação, roteiro e produção audiovisual:** Diego Ricardo Xavier (ICICT/Fiocruz), com auxílio de inteligência artificial generativa para animação e narração sintética.
+**Adaptação, roteiro e produção audiovisual:** Diego Ricardo Xavier (ICICT/Fiocruz), 
+com auxílio de inteligência artificial generativa para animação e narração sintética.
 
-**Financiamento:** RML foi financiada pela União Europeia (Marie Sklodowska-Curie Actions, nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 224694/Z/21/Z) e Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) (processo 445194/2024-3), Observatório de Clima e Saúde (Fiocruz), do Laboratório de Informação em Saúde (LIS) do ICICT/Fiocruz.
+**Financiamento:** RML foi financiada pela União Europeia (Marie Sklodowska-Curie Actions, 
+nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, 
+nº projeto: 224694/Z/21/Z) e Conselho Nacional de Desenvolvimento Científico e Tecnológico 
+(CNPq) (processo 445194/2024-3), Observatório de Clima e Saúde (Fiocruz), do Laboratório de 
+Informação em Saúde (LIS) do ICICT/Fiocruz.
 
 **Referências Científicas:**
 1. Instituto Oswaldo Cruz (IOC/Fiocruz) — Ciclo de transmissão do *Aedes aegypti* e dengue
@@ -78,7 +90,8 @@ O vídeo é composto por 7 cenas + créditos, cobrindo os seguintes tópicos:
 
 | Cena | Título | Conteúdo |
 |---|---|---|
-| 1 | O que é a dengue? | Ciclo de vida do *Aedes aegypti* (ovo → larva → pupa → adulto), menção ao *Aedes albopictus* (mosquito tigre) |
+| 1 | O que é a dengue? | Ciclo de vida do *Aedes aegypti* (ovo → larva → pupa → adulto), 
+menção ao *Aedes albopictus* (mosquito tigre) |
 | 2 | Sem nenhum controle | Mosquitos atacam livremente — Picados: 8/8, Infectados: 6/8. Sintomas: febre, dor de cabeça, manchas vermelhas |
 | 3 | Controle individual | Repelente, roupas compridas, mosquiteiros — Picados: 5/8, Infectados: 3/8 |
 | 4 | Controle coletivo | Vacinação e fumacê — Picados: 4/8, Infectados: 1/8 |
@@ -105,7 +118,8 @@ O vídeo é composto por 7 cenas + créditos, cobrindo os seguintes tópicos:
 
 ## Como Editar
 
-Os assets de edição permitem remontar o vídeo em qualquer editor. Consulte o arquivo `Ferramentas_Gratuitas_Edicao.md` para um guia completo de ferramentas gratuitas recomendadas para:
+Os assets de edição permitem remontar o vídeo em qualquer editor. Consulte o arquivo 
+`Ferramentas_Gratuitas_Edicao.md` para um guia completo de ferramentas gratuitas recomendadas para:
 
 - Melhorar a naturalidade da voz (remover tom de IA)
 - Aumentar a resolução (upscaling de 720p para 1080p/4K)
@@ -130,12 +144,6 @@ python scripts/create_video_v5.py pt
 python scripts/create_video_v5.py en
 python scripts/create_video_v5.py es
 ```
-
----
-
-## Financiamento
-
-RML foi financiado pela União Europeia (Ações Marie Sklodowska-Curie, nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 224694/Z/21/Z) e Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) (processo 445194/2024-3), Observatório de Clima e Saúde (Fiocruz), do Laboratório de Informação em Saúde (LIS) do ICICT/Fiocruz.
 
 ---
 
