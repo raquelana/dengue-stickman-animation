@@ -14,7 +14,7 @@ O vídeo explica de forma lúdica e acessível o ciclo de vida do mosquito *Aede
 
 **Adaptação, roteiro e produção audiovisual:** Diego Ricardo Xavier (ICICT/Fiocruz), com auxílio de inteligência artificial generativa para animação e narração sintética.
 
-**Financiamento:** RML foi financiado pela União Europeia (Ações Marie Sklodowska-Curie, nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 224694/Z/21/Z) e Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) (processo 445194/2024-3), Observatório de Clima e Saúde (Fiocruz), do Laboratório de Informação em Saúde (LIS) do ICICT/Fiocruz.
+**Financiamento:** RML foi financiada pela União Europeia (Marie Sklodowska-Curie Actions, nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 224694/Z/21/Z) e Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) (processo 445194/2024-3), Observatório de Clima e Saúde (Fiocruz), do Laboratório de Informação em Saúde (LIS) do ICICT/Fiocruz.
 
 **Referências Científicas:**
 1. Instituto Oswaldo Cruz (IOC/Fiocruz) — Ciclo de transmissão do *Aedes aegypti* e dengue
@@ -146,7 +146,3 @@ RML foi financiado pela União Europeia (Ações Marie Sklodowska-Curie, nº pro
 3. Guia de Vigilância em Saúde, Ministério da Saúde do Brasil, 6ª edição
 
 ---
-
-## Licença
-
-*(a preencher)*
