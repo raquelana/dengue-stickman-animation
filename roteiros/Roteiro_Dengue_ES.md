@@ -129,7 +129,7 @@ esta batalla. Protégete. Protege a tu comunidad. Cuida el medio ambiente."
 
 ## Créditos
 
-**Equipo SiW 2026:** Raquel Martins Lana (BSC), Andria Nicodemou (BSC) y Tatiana Docile (UERJ).  
+**Equipo SiW 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) y Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
 **Guión y vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz).
 

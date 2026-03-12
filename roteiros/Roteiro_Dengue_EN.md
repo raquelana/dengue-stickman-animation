@@ -17,10 +17,9 @@ mosquito, with arrows indicating progression. Next to it, the *Aedes albopictus*
 mosquito) appears with visible white stripes. At the bottom, a container with standing 
 water and eggs being deposited.
 
-**Narration:** "This is the *Aedes aegypti*, it transmits the Dengue virus. The *Aedes 
-albopictus*, better known as the tiger mosquito, can also transmit this virus. Female 
-*Aedes* lay their eggs in standing water. An egg takes between 7 and 10 days to become 
-an adult mosquito."
+**Narration:** "This is the *Aedes aegypti*, it transmits the dengue virus. The *Aedes albopictus*, 
+better known as the tiger mosquito, can also transmit dengue. Female *Aedes* lay their eggs 
+in standing water. An egg takes between 7 and 10 days to become an adult mosquito."
 
 ---
 
@@ -31,9 +30,9 @@ Mosquitoes fly freely between them, biting residents. Those bitten show floating
 🤒 (fever), 🤕 (headache), red spots. Counter in the upper right corner: Bitten 8/8, 
 Infected 6/8 (red bar).
 
-**Narration:** "Without any control measures, dengue spreads through mosquito bites. 
-Only females bite humans, as they need blood for their eggs to develop. Dengue symptoms 
-include high fever, intense headache, body aches, and red spots on the skin."
+**Narration:** "Without any control measures, dengue is passed to humans through mosquito 
+bites. Only females bite humans, as they need blood for their eggs to develop. Dengue 
+symptoms include high fever, intense headache, body aches, and red spots on the skin."
 
 | Indicator | Value |
 |---|---|
@@ -66,9 +65,9 @@ receive vaccines (💉), gaining golden shields of protection. A fumigation truc
 drives through the street, eliminating mosquitoes with an insecticide cloud. The 
 remaining mosquitoes visibly decrease. Counter: Bitten 4/8, Infected 1/8 (yellow bar).
 
-**Narration:** "Collective measures make a big difference! Vaccines protect people 
-even when bitten. Insecticides reduce the mosquito population. The combination of 
-different measures strengthens the fight against the disease."
+**Narration:** "Collective measures make a big difference! Vaccines, when available, 
+protect people even when bitten. Insecticides reduce the mosquito population. The 
+combination of different measures strengthens the fight against the disease."
 
 | Indicator | Value |
 |---|---|
@@ -84,7 +83,7 @@ rubbish (🗑️), cover water containers, turn over tyres and bottles. Breeding
 progressively disappear. Mosquitoes vanish from the scene. Clean and organised 
 environment. Counter: Bitten 1/8, Infected 0/8 (green bar).
 
-**Narration:** "When we take care of the environment, removing trash, covering water 
+**Narration:** "When we take care of the environment, removing rubbish, covering water 
 containers, and eliminating breeding sites, mosquitoes lose their breeding grounds 
 and have no place to lay their eggs and develop into adults!"
 
@@ -107,9 +106,9 @@ environmental condition:
 | Lower left | 🧹 Clean-up effort | -1 mosquito disappears |
 | Lower right | 🏙️ Dense urban area | Mosquitoes bite more easily |
 
-**Narration:** "The environment makes all the difference. Rain and trash together 
-produce more breeding sites. Cleaning and care eliminate them. In dense urban areas, 
-the risk is even greater."
+**Narration:** "The environment makes all the difference. Rain and discarded waste 
+together produce more breeding sites. Cleaning and care eliminates them. In dense 
+urban areas, the risk is even greater."
 
 ---
 
@@ -120,15 +119,15 @@ the screen. Animated text appears: "Dengue: know to prevent." Below: "Have you a
 thought about researching other diseases like malaria, leishmaniasis and Chagas?" 
 Footer: "Science is Wonderful! 2026 — Brussels".
 
-**Narration:** "Dengue has 4 different serotypes and the same mosquitoes that transmit 
-Zika and chikungunya. But with knowledge and collective action, we can win this battle. 
-Protect yourself. Protect your community. Take care of the environment."
+**Narration:** "The same mosquitoes that transmit dengue also transmit Zika and chikungunya. 
+But with knowledge and collective action, we can win this battle. Protect yourself. 
+Protect your community. Take care of the environment."
 
 ---
 
 ## Credits
 
-**SiW Team 2026:** Raquel Martins Lana (BSC), Andria Nicodemou (BSC) and Tatiana Docile (UERJ).  
+**SiW Team 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) and Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
 **Script and video:** Diego Ricardo Xavier (ICICT/Fiocruz).
 

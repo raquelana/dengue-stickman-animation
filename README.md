@@ -15,7 +15,7 @@ voltado para o público de 7 a 18 anos.
 
 ## Créditos
 
-**Conteúdo científico:** Equipe SiW 2026 — Raquel Martins Lana (BSC), Andria Nicodemou (BSC) 
+**Conteúdo científico:** Equipe SiW 2026 — Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) 
 e Tatiana Docile (UERJ).  
 Acesse o site do [Science is Wonderful](https://marie-sklodowska-curie-actions.ec.europa.eu/science-is-wonderful/science-is-wonderful).
 
