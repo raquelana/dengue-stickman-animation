@@ -1,7 +1,6 @@
 # Dengue Stickman Animation — Science is Wonderful! 2026
 
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)]
-(https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Vídeo educativo de animação de bonecos palito sobre a dengue, desenvolvido para exibição 
 na feira de ciências **Science is Wonderful! 2026** em Bruxelas (Booth #18 — *Health 
@@ -45,14 +44,21 @@ dengue-stickman-animation/
 ├── Ferramentas_Gratuitas_Edicao.md    # Guia de ferramentas gratuitas para pós-produção
 │
 ├── videos/                            # Vídeos finais legendados (MP4, H.264, 1280x720)
-│   ├── dengue_stickman_v6_PT.mp4      # Versão em Português com legendas (2min 09s)
-│   ├── dengue_stickman_v6_EN.mp4      # Versão em Inglês com legendas (2min 07s)
-│   └── dengue_stickman_v6_ES.mp4      # Versão em Espanhol com legendas (2min 15s)
+│   ├── dengue_final_PT.mp4            # Versão final em Português com legendas (2min 07s)
+│   ├── dengue_final_EN.mp4            # Versão final em Inglês com legendas (2min 07s)
+│   ├── dengue_final_ES.mp4            # Versão final em Espanhol com legendas (2min 07s)
+│   ├── video_only_EN.mp4              # Vídeo base sem áudio (visual compartilhado)
+│   ├── dengue_stickman_v6_PT.mp4      # Versão anterior v6 — Português
+│   ├── dengue_stickman_v6_EN.mp4      # Versão anterior v6 — Inglês
+│   └── dengue_stickman_v6_ES.mp4      # Versão anterior v6 — Espanhol
 │
 ├── legendas/                          # Arquivos de legenda (SRT) para edição
-│   ├── legendas_PT.srt                # Legendas em Português
-│   ├── legendas_EN.srt                # Legendas em Inglês
-│   └── legendas_ES.srt                # Legendas em Espanhol
+│   ├── legendas_PT_final_v7.srt       # Legendas finais em Português (v7)
+│   ├── legendas_EN_final_v7.srt       # Legendas finais em Inglês (v7)
+│   ├── legendas_ES_final_v7.srt       # Legendas finais em Espanhol (v7)
+│   ├── legendas_PT.srt                # Legendas anteriores — Português (v6)
+│   ├── legendas_EN.srt                # Legendas anteriores — Inglês (v6)
+│   └── legendas_ES.srt                # Legendas anteriores — Espanhol (v6)
 │
 ├── roteiros/                          # Roteiros completos com descrição visual
 │   ├── Roteiro_Dengue_PT.md           # Roteiro em Português
@@ -78,8 +84,11 @@ dengue-stickman-animation/
 │   └── logos_new.png                  # Composição de logos para créditos
 │
 └── scripts/                           # Scripts Python para geração do vídeo
-    ├── create_video_v5.py             # Script principal de renderização
-    └── generate_narration_v6.py       # Script de geração de narrações (edge-tts)
+    ├── generate_all_videos.py         # Script principal de geração dos 3 vídeos (v7)
+    ├── generate_narration_all_v7.py   # Script de geração de narrações (edge-tts, v7)
+    ├── fix_narration_speed.py         # Script de ajuste de velocidade das narrações
+    ├── create_video_v5.py             # Script anterior de renderização (v5)
+    └── generate_narration_v6.py       # Script anterior de narrações (v6)
 ```
 
 ---
@@ -90,8 +99,7 @@ O vídeo é composto por 7 cenas + créditos, cobrindo os seguintes tópicos:
 
 | Cena | Título | Conteúdo |
 |---|---|---|
-| 1 | O que é a dengue? | Ciclo de vida do *Aedes aegypti* (ovo → larva → pupa → adulto), 
-menção ao *Aedes albopictus* (mosquito tigre) |
+| 1 | O que é a dengue? | Ciclo de vida do *Aedes aegypti* (ovo → larva → pupa → adulto), menção ao *Aedes albopictus* (mosquito tigre) |
 | 2 | Sem nenhum controle | Mosquitos atacam livremente — Picados: 8/8, Infectados: 6/8. Sintomas: febre, dor de cabeça, manchas vermelhas |
 | 3 | Controle individual | Repelente, roupas compridas, mosquiteiros — Picados: 5/8, Infectados: 3/8 |
 | 4 | Controle coletivo | Vacinação e fumacê — Picados: 4/8, Infectados: 1/8 |
@@ -109,10 +117,23 @@ menção ao *Aedes albopictus* (mosquito tigre) |
 | Resolução | 1280 x 720 (HD) |
 | FPS | 12 |
 | Codec | H.264 (MP4) |
+| Duração | ~2 minutos e 7 segundos |
 | Estilo visual | Fundo branco, bonecos palito pretos, objetos em emoji |
+| Legendas | Burn-in (texto branco, contorno preto, fundo semi-transparente) |
 | Narração PT | Francisca (pt-BR) — voz feminina suave |
 | Narração EN | Jenny (en-US) — voz feminina madura e amigável |
 | Narração ES | Elvira (es-ES) — voz feminina clara e amigável |
+| Música de fundo | Instrumental suave a -18dB |
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição |
+|---|---|---|
+| v7 (final) | 2025-03-14 | Vídeos finais com roteiros atualizados do GitHub, narrações resincronizadas via scene detection, velocidade ajustada automaticamente para caber no tempo de cada cena |
+| v6 | 2025-03-05 | Vídeos com legendas burn-in, logos institucionais e créditos |
+| v5 | 2025-03-04 | Primeira versão com animação completa de 7 cenas |
 
 ---
 
@@ -128,22 +149,26 @@ Os assets de edição permitem remontar o vídeo em qualquer editor. Consulte o 
 
 ---
 
-## Como Regenerar o Vídeo
+## Como Regenerar o Vídeo (v7)
 
-Para regenerar o vídeo a partir dos scripts Python:
+Para regenerar os vídeos a partir dos scripts Python:
 
 ```bash
 # Instalar dependências
-pip install edge-tts moviepy pydub Pillow
+pip install edge-tts pydub ffmpeg-python
 
-# Gerar narrações
-python scripts/generate_narration_v6.py
+# 1. Gerar narrações nos 3 idiomas
+python scripts/generate_narration_all_v7.py
 
-# Renderizar vídeo (pt, en ou es)
-python scripts/create_video_v5.py pt
-python scripts/create_video_v5.py en
-python scripts/create_video_v5.py es
+# 2. Ajustar velocidade das narrações (se necessário)
+python scripts/fix_narration_speed.py
+
+# 3. Gerar os 3 vídeos finais (requer video_only_EN.mp4 e bg_music.wav)
+python scripts/generate_all_videos.py
 ```
+
+**Nota:** O script `generate_all_videos.py` utiliza `video_only_EN.mp4` como base visual 
+e combina com narrações, legendas burn-in e música de fundo para cada idioma.
 
 ---
 
