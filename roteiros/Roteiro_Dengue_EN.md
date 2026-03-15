@@ -66,8 +66,9 @@ drives through the street, eliminating mosquitoes with an insecticide cloud. The
 remaining mosquitoes visibly decrease. Counter: Bitten 4/8, Infected 1/8 (yellow bar).
 
 **Narration:** "Collective measures make a big difference! Vaccines, when available, 
-protect people even when bitten. Insecticides reduce the mosquito population. The 
-combination of different measures strengthens the fight against the disease."
+protect people even when bitten. Chemical interventions that are safe for the environment, 
+can reduce the mosquito population. The combination of different measures strengthens 
+the fight against the disease."
 
 | Indicator | Value |
 |---|---|
