@@ -85,7 +85,7 @@ progressively disappear. Mosquitoes vanish from the scene. Clean and organised
 environment. Counter: Bitten 1/8, Infected 0/8 (green bar).
 
 **Narration:** "When we take care of the environment, removing rubbish, covering water 
-containers, and eliminating breeding sites, mosquitoes lose their breeding grounds 
+containers, and eliminating breeding sites, mosquitoes lose them 
 and have no place to lay their eggs and develop into adults!"
 
 | Indicator | Value |
