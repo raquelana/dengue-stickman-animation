@@ -1,7 +1,10 @@
 """
 Gerar 3 vídeos (PT, EN, ES) usando video_only_EN.mp4 como base visual.
-v8: Todos os 3 idiomas com narrações regeneradas fielmente conforme roteiros do GitHub.
-EN corrigido conforme commit 71fed48. PT e ES regenerados para consistência total.
+v9: Correções de consistência entre idiomas:
+  - PT Cena 4: "quando disponíveis"
+  - ES Cena 4: "cuando estén disponibles" + "!"
+  - EN Cena 6: "eliminate" (corrigido gramática)
+  - EN Cena 5: "lose them" (mantido)
 """
 import subprocess
 import os
@@ -11,34 +14,15 @@ VIDEO_BASE = "/home/ubuntu/upload/video_only_EN.mp4"
 VIDEO_DURATION_MS = 127000
 BG_MUSIC = "/home/ubuntu/bg_music.wav"
 
-SCENE_STARTS = {
-    1: 1000,
-    2: 21500,
-    3: 39800,
-    4: 52300,
-    5: 68900,
-    6: 83600,
-    7: 98800,
-}
+SCENE_STARTS = {1: 1000, 2: 21500, 3: 39800, 4: 52300, 5: 68900, 6: 83600, 7: 98800}
+SCENE_ENDS = {1: 20500, 2: 38800, 3: 51300, 4: 67900, 5: 82600, 6: 97800, 7: 117000}
 
-SCENE_ENDS = {
-    1: 20500,
-    2: 38800,
-    3: 51300,
-    4: 67900,
-    5: 82600,
-    6: 97800,
-    7: 117000,
-}
-
-# Diretórios de narração por idioma
 NARR_DIRS = {
-    "pt": "/home/ubuntu/narration_pt_v8",
-    "en": "/home/ubuntu/narration_en_v8",
-    "es": "/home/ubuntu/narration_es_v8",
+    "pt": "/home/ubuntu/narration_pt_v9",
+    "en": "/home/ubuntu/narration_en_v9",
+    "es": "/home/ubuntu/narration_es_v9",
 }
 
-# Legendas corrigidas
 SUBTITLE_TEXTS = {
     "pt": {
         1: [
@@ -73,7 +57,8 @@ SUBTITLE_TEXTS = {
         4: [
             "Medidas coletivas fazem",
             "uma grande diferença!",
-            "Vacinas protegem as pessoas",
+            "Vacinas, quando disponíveis,",
+            "protegem as pessoas",
             "mesmo quando picadas.",
             "Inseticidas reduzem",
             "a população de mosquitos.",
@@ -165,7 +150,7 @@ SUBTITLE_TEXTS = {
             "all the difference.",
             "Rain and discarded waste together",
             "produce more breeding sites.",
-            "Cleaning and care eliminates them.",
+            "Cleaning and care eliminate them.",
             "In dense urban areas,",
             "the risk is even greater."
         ],
@@ -215,8 +200,9 @@ SUBTITLE_TEXTS = {
         ],
         4: [
             "Las medidas colectivas marcan",
-            "una gran diferencia.",
-            "Las vacunas protegen a las personas",
+            "una gran diferencia!",
+            "Las vacunas, cuando estén disponibles,",
+            "protegen a las personas",
             "incluso cuando son picadas.",
             "Los insecticidas reducen",
             "la población de mosquitos.",
@@ -264,16 +250,15 @@ def ms_to_srt_time(ms):
 
 def generate_video(lang):
     print(f"\n{'='*50}")
-    print(f"  Gerando vídeo {lang.upper()} (v8)")
+    print(f"  Gerando vídeo {lang.upper()} (v9)")
     print(f"{'='*50}")
     
     narr_dir = NARR_DIRS[lang]
-    srt_file = f"/home/ubuntu/legendas_{lang.upper()}_final_v8.srt"
+    srt_file = f"/home/ubuntu/legendas_{lang.upper()}_final_v9.srt"
     output = f"/home/ubuntu/dengue_final_{lang.upper()}.mp4"
     temp_audio = f"/home/ubuntu/temp_audio_{lang}.wav"
     temp_video = f"/home/ubuntu/temp_video_{lang}.mp4"
     
-    # 1. Carregar narrações
     print("1. Carregando narrações...")
     narrations = {}
     for i in range(1, 8):
@@ -284,10 +269,8 @@ def generate_video(lang):
         status = "OK" if dur <= scene_available else "LONGA"
         print(f"   cena{i}: {dur:.1f}s (disponível: {scene_available:.1f}s) [{status}]")
     
-    # 2. Combinar áudio
     print("2. Combinando áudio...")
     combined = AudioSegment.silent(duration=VIDEO_DURATION_MS)
-    
     for i in range(1, 8):
         start = SCENE_STARTS[i]
         narr = narrations[i]
@@ -297,7 +280,6 @@ def generate_video(lang):
             print(f"   AVISO: cena{i} cortada para {available/1000:.1f}s")
         combined = combined.overlay(narr, position=start)
     
-    # Música de fundo
     if os.path.exists(BG_MUSIC):
         bg = AudioSegment.from_wav(BG_MUSIC)
         while len(bg) < VIDEO_DURATION_MS:
@@ -309,78 +291,59 @@ def generate_video(lang):
     combined.export(temp_audio, format="wav")
     print(f"   Áudio: {len(combined)/1000:.1f}s")
     
-    # 3. Gerar SRT
     print("3. Gerando legendas SRT...")
     srt_index = 1
     srt_content = ""
     texts = SUBTITLE_TEXTS[lang]
-    
     for scene_num in range(1, 8):
         scene_start = SCENE_STARTS[scene_num]
         narr_duration = len(narrations[scene_num])
         available = SCENE_ENDS[scene_num] - scene_start
         effective_duration = min(narr_duration, available)
-        
         lines = texts[scene_num]
         line_duration = effective_duration / len(lines)
-        
         for j, line in enumerate(lines):
             line_start = scene_start + int(j * line_duration)
             line_end = scene_start + int((j + 1) * line_duration)
-            
             srt_content += f"{srt_index}\n"
             srt_content += f"{ms_to_srt_time(line_start)} --> {ms_to_srt_time(line_end)}\n"
             srt_content += f"{line}\n\n"
             srt_index += 1
-    
     with open(srt_file, "w", encoding="utf-8") as f:
         f.write(srt_content)
     print(f"   SRT: {srt_index - 1} legendas")
     
-    # 4. Combinar vídeo + áudio
     print("4. Combinando vídeo + áudio...")
     subprocess.run([
-        "ffmpeg", "-y",
-        "-i", VIDEO_BASE,
-        "-i", temp_audio,
-        "-c:v", "copy",
-        "-c:a", "aac", "-b:a", "192k",
-        "-shortest",
-        temp_video
+        "ffmpeg", "-y", "-i", VIDEO_BASE, "-i", temp_audio,
+        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", temp_video
     ], check=True, capture_output=True)
     
-    # 5. Adicionar legendas burn-in
     print("5. Adicionando legendas burn-in...")
     subprocess.run([
-        "ffmpeg", "-y",
-        "-i", temp_video,
+        "ffmpeg", "-y", "-i", temp_video,
         "-vf", f"subtitles={srt_file}:force_style='FontName=Liberation Sans,FontSize=22,PrimaryColour=&HFFFFFF,OutlineColour=&H000000,BorderStyle=3,Outline=2,Shadow=1,BackColour=&H80000000,Alignment=2,MarginV=30'",
         "-c:v", "libx264", "-preset", "medium", "-crf", "23",
-        "-c:a", "copy",
-        output
+        "-c:a", "copy", output
     ], check=True, capture_output=True)
     
-    # Limpar temporários
     for f in [temp_audio, temp_video]:
         if os.path.exists(f):
             os.remove(f)
     
-    # Verificar
     result = subprocess.run([
         "ffprobe", "-v", "error", "-show_entries", "format=duration",
         "-of", "csv=p=0", output
     ], capture_output=True, text=True)
     final_dur = float(result.stdout.strip())
     file_size = os.path.getsize(output) / (1024 * 1024)
-    
     print(f"\n   RESULTADO: {output}")
     print(f"   Duração: {final_dur:.1f}s | Tamanho: {file_size:.1f} MB")
     return output
 
-# Gerar os 3 vídeos
 for lang in ["pt", "en", "es"]:
     generate_video(lang)
 
 print(f"\n{'='*50}")
-print("  TODOS OS 3 VÍDEOS v8 GERADOS COM SUCESSO!")
+print("  TODOS OS 3 VÍDEOS v9 GERADOS COM SUCESSO!")
 print(f"{'='*50}")
