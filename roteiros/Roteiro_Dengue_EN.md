@@ -66,8 +66,9 @@ drives through the street, eliminating mosquitoes with an insecticide cloud. The
 remaining mosquitoes visibly decrease. Counter: Bitten 4/8, Infected 1/8 (yellow bar).
 
 **Narration:** "Collective measures make a big difference! Vaccines, when available, 
-protect people even when bitten. Insecticides reduce the mosquito population. The 
-combination of different measures strengthens the fight against the disease."
+protect people even when bitten. Chemical interventions that are safe for the environment, 
+can reduce the mosquito population. The combination of different measures strengthens 
+the fight against the disease."
 
 | Indicator | Value |
 |---|---|
@@ -107,7 +108,7 @@ environmental condition:
 | Lower right | 🏙️ Dense urban area | Mosquitoes bite more easily |
 
 **Narration:** "The environment makes all the difference. Rain and discarded waste 
-together produce more breeding sites. Cleaning and care eliminate them. In dense 
+together produce more breeding sites. Cleaning and care eliminates them. In dense 
 urban areas, the risk is even greater."
 
 ---
@@ -129,7 +130,7 @@ Protect your community. Take care of the environment."
 
 **SiW Team 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) and Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
-**Script and video:** Diego Ricardo Xavier (ICICT/Fiocruz).
+**Script and video:** Diego Ricardo Xavier (ICICT/Fiocruz). Assisted by OpenAI.
 
 **Funding:** RML was funded by the European Union (Marie Sklodowska-Curie Actions, 
 grant agreement 101109642). We acknowledge the support of the HARMONIZE project 
