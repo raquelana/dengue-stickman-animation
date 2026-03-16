@@ -1,0 +1,220 @@
+1
+00:00:01,000 --> 00:00:03,077
+Este é o Aedes aegypti,
+
+2
+00:00:03,077 --> 00:00:05,154
+ele transmite o vírus Dengue.
+
+3
+00:00:05,154 --> 00:00:07,232
+O Aedes albopictus, mais conhecido
+
+4
+00:00:07,232 --> 00:00:09,309
+como mosquito tigre,
+
+5
+00:00:09,309 --> 00:00:11,386
+também pode transmitir esse vírus.
+
+6
+00:00:11,386 --> 00:00:13,464
+As fêmeas de Aedes colocam
+
+7
+00:00:13,464 --> 00:00:15,541
+os ovos em água parada.
+
+8
+00:00:15,541 --> 00:00:17,618
+Um ovo demora entre 7 e 10 dias
+
+9
+00:00:17,618 --> 00:00:19,696
+para se tornar um mosquito adulto.
+
+10
+00:00:21,500 --> 00:00:23,420
+Sem nenhuma medida de controle,
+
+11
+00:00:23,420 --> 00:00:25,340
+a dengue se espalha por meio
+
+12
+00:00:25,340 --> 00:00:27,260
+das picadas de mosquitos.
+
+13
+00:00:27,260 --> 00:00:29,180
+Somente as fêmeas picam os humanos,
+
+14
+00:00:29,180 --> 00:00:31,101
+pois precisam do sangue
+
+15
+00:00:31,101 --> 00:00:33,021
+para os ovos se desenvolverem.
+
+16
+00:00:33,021 --> 00:00:34,941
+Os sintomas da dengue incluem febre alta,
+
+17
+00:00:34,941 --> 00:00:36,861
+dor de cabeça intensa, dores no corpo
+
+18
+00:00:36,861 --> 00:00:38,782
+e manchas vermelhas na pele.
+
+19
+00:00:39,800 --> 00:00:41,883
+Com medidas individuais —
+
+20
+00:00:41,883 --> 00:00:43,966
+como repelente, roupas compridas
+
+21
+00:00:43,966 --> 00:00:46,049
+e mosquiteiros —
+
+22
+00:00:46,049 --> 00:00:48,132
+algumas pessoas conseguem se proteger.
+
+23
+00:00:48,132 --> 00:00:50,216
+Mas outras medidas podem ajudar também.
+
+24
+00:00:52,300 --> 00:00:54,031
+Medidas coletivas fazem
+
+25
+00:00:54,031 --> 00:00:55,762
+uma grande diferença!
+
+26
+00:00:55,762 --> 00:00:57,493
+Vacinas, quando disponíveis,
+
+27
+00:00:57,493 --> 00:00:59,224
+protegem as pessoas
+
+28
+00:00:59,224 --> 00:01:00,955
+mesmo quando picadas.
+
+29
+00:01:00,955 --> 00:01:02,686
+Inseticidas reduzem
+
+30
+00:01:02,686 --> 00:01:04,417
+a população de mosquitos.
+
+31
+00:01:04,417 --> 00:01:06,148
+A combinação de diferentes medidas
+
+32
+00:01:06,148 --> 00:01:07,879
+fortalece o combate à doença.
+
+33
+00:01:08,900 --> 00:01:10,610
+Quando cuidamos do ambiente —
+
+34
+00:01:10,610 --> 00:01:12,320
+removendo lixo,
+
+35
+00:01:12,320 --> 00:01:14,030
+tampando recipientes com água
+
+36
+00:01:14,030 --> 00:01:15,741
+e eliminando criadouros —
+
+37
+00:01:15,741 --> 00:01:17,451
+os mosquitos perdem seus criadouros,
+
+38
+00:01:17,451 --> 00:01:19,161
+e ficam sem lugares para depositar
+
+39
+00:01:19,161 --> 00:01:20,871
+os seus ovos e desenvolverem
+
+40
+00:01:20,871 --> 00:01:22,582
+até a fase adulta!
+
+41
+00:01:23,600 --> 00:01:25,548
+O ambiente faz toda a diferença.
+
+42
+00:01:25,548 --> 00:01:27,496
+Chuva e lixo juntos
+
+43
+00:01:27,496 --> 00:01:29,444
+produzem mais criadouros.
+
+44
+00:01:29,444 --> 00:01:31,392
+Limpeza e cuidado os eliminam.
+
+45
+00:01:31,392 --> 00:01:33,340
+Em áreas urbanas densas,
+
+46
+00:01:33,340 --> 00:01:35,288
+o risco é ainda maior.
+
+47
+00:01:38,800 --> 00:01:40,544
+A dengue possui 4 sorotipos diferentes
+
+48
+00:01:40,544 --> 00:01:42,288
+e os mesmos mosquitos que transmitem
+
+49
+00:01:42,288 --> 00:01:44,032
+a Zika e a chikungunya.
+
+50
+00:01:44,032 --> 00:01:45,776
+Mas com conhecimento
+
+51
+00:01:45,776 --> 00:01:47,520
+e ação coletiva,
+
+52
+00:01:47,520 --> 00:01:49,264
+podemos vencer essa batalha.
+
+53
+00:01:49,264 --> 00:01:51,008
+Proteja-se.
+
+54
+00:01:51,008 --> 00:01:52,752
+Proteja sua comunidade.
+
+55
+00:01:52,752 --> 00:01:54,496
+Cuide do ambiente.
+

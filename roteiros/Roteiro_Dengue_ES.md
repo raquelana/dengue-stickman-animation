@@ -67,7 +67,7 @@ reciben vacunas (💉), obteniendo escudos dorados de protección. Un camión de
 recorre la calle, eliminando mosquitos con una nube de insecticida. Los mosquitos restantes 
 disminuyen visiblemente. Contador: Picados 4/8, Infectados 1/8 (barra amarilla).
 
-**Narración:** "Las medidas colectivas marcan una gran diferencia. Las vacunas protegen 
+**Narración:** "Las medidas colectivas marcan una gran diferencia! Las vacunas, cuando estén disponibles, protegen 
 a las personas incluso cuando son picadas. Los insecticidas reducen la población de mosquitos.
 La combinación de diferentes medidas fortalece la lucha contra la enfermedad."
 

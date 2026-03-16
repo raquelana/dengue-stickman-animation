@@ -65,7 +65,7 @@ vacinas (💉), ganhando escudos dourados de proteção. Um caminhão de fumacê
 eliminando mosquitos com nuvem de inseticida. Os mosquitos restantes diminuem visivelmente. 
 Contador: Picados 4/8, Infectados 1/8 (barra amarela).
 
-**Narração:** "Medidas coletivas fazem uma grande diferença! Vacinas protegem as 
+**Narração:** "Medidas coletivas fazem uma grande diferença! Vacinas, quando disponíveis, protegem as 
 pessoas mesmo quando picadas. Inseticidas reduzem a população de mosquitos. A combinação 
 de diferentes medidas fortalece o combate à doença."
 
