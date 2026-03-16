@@ -53,9 +53,12 @@ dengue-stickman-animation/
 │   └── dengue_stickman_v6_ES.mp4      # Versão anterior v6 — Espanhol
 │
 ├── legendas/                          # Arquivos de legenda (SRT) para edição
-│   ├── legendas_PT_final_v7.srt       # Legendas finais em Português (v7)
-│   ├── legendas_EN_final_v7.srt       # Legendas finais em Inglês (v7)
-│   ├── legendas_ES_final_v7.srt       # Legendas finais em Espanhol (v7)
+│   ├── legendas_PT_final_v8.srt       # Legendas finais em Português (v8)
+│   ├── legendas_EN_final_v8.srt       # Legendas finais em Inglês (v8)
+│   ├── legendas_ES_final_v8.srt       # Legendas finais em Espanhol (v8)
+│   ├── legendas_PT_final_v7.srt       # Legendas anteriores — Português (v7)
+│   ├── legendas_EN_final_v7.srt       # Legendas anteriores — Inglês (v7)
+│   ├── legendas_ES_final_v7.srt       # Legendas anteriores — Espanhol (v7)
 │   ├── legendas_PT.srt                # Legendas anteriores — Português (v6)
 │   ├── legendas_EN.srt                # Legendas anteriores — Inglês (v6)
 │   └── legendas_ES.srt                # Legendas anteriores — Espanhol (v6)
@@ -84,7 +87,9 @@ dengue-stickman-animation/
 │   └── logos_new.png                  # Composição de logos para créditos
 │
 └── scripts/                           # Scripts Python para geração do vídeo
-    ├── generate_all_videos.py         # Script principal de geração dos 3 vídeos (v7)
+    ├── generate_all_videos_v8.py      # Script principal de geração dos 3 vídeos (v8)
+    ├── regenerate_en_narration_v8.py  # Script de regeneração da narração EN (v8)
+    ├── generate_all_videos.py         # Script de geração dos 3 vídeos (v7)
     ├── generate_narration_all_v7.py   # Script de geração de narrações (edge-tts, v7)
     ├── fix_narration_speed.py         # Script de ajuste de velocidade das narrações
     ├── create_video_v5.py             # Script anterior de renderização (v5)
@@ -131,7 +136,8 @@ O vídeo é composto por 7 cenas + créditos, cobrindo os seguintes tópicos:
 
 | Versão | Data | Descrição |
 |---|---|---|
-| v7 (final) | 2025-03-14 | Vídeos finais com roteiros atualizados do GitHub, narrações resincronizadas via scene detection, velocidade ajustada automaticamente para caber no tempo de cada cena |
+| v8 (final) | 2025-03-16 | Narração EN corrigida conforme commit 71fed48: "dengue" minúscula, "is passed to humans", "when available", "rubbish", "discarded waste", "lose them", remoção de "4 serotypes" |
+| v7 | 2025-03-14 | Vídeos com roteiros atualizados do GitHub, narrações resincronizadas via scene detection |
 | v6 | 2025-03-05 | Vídeos com legendas burn-in, logos institucionais e créditos |
 | v5 | 2025-03-04 | Primeira versão com animação completa de 7 cenas |
 
