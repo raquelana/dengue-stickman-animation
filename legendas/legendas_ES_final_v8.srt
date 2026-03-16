@@ -35,186 +35,190 @@ Un huevo tarda entre 7 y 10 días
 en convertirse en un mosquito adulto.
 
 10
-00:00:21,500 --> 00:00:23,420
+00:00:21,500 --> 00:00:23,228
 Sin ninguna medida de control,
 
 11
-00:00:23,420 --> 00:00:25,340
+00:00:23,228 --> 00:00:24,956
 el dengue se propaga a través
 
 12
-00:00:25,340 --> 00:00:27,260
+00:00:24,956 --> 00:00:26,684
 de las picaduras de mosquitos.
 
 13
-00:00:27,260 --> 00:00:29,180
+00:00:26,684 --> 00:00:28,412
 Solo las hembras pican a los humanos,
 
 14
-00:00:29,180 --> 00:00:31,101
+00:00:28,412 --> 00:00:30,141
 ya que necesitan la sangre
 
 15
-00:00:31,101 --> 00:00:33,021
+00:00:30,141 --> 00:00:31,869
 para que sus huevos se desarrollen.
 
 16
-00:00:33,021 --> 00:00:34,941
+00:00:31,869 --> 00:00:33,597
 Los síntomas del dengue incluyen
 
 17
-00:00:34,941 --> 00:00:36,861
+00:00:33,597 --> 00:00:35,325
 fiebre alta, dolor de cabeza intenso,
 
 18
-00:00:36,861 --> 00:00:38,782
-dolores corporales y manchas rojas.
+00:00:35,325 --> 00:00:37,053
+dolores corporales y manchas rojas
 
 19
+00:00:37,053 --> 00:00:38,782
+en la piel.
+
+20
 00:00:39,800 --> 00:00:41,524
 Con medidas individuales,
 
-20
+21
 00:00:41,524 --> 00:00:43,248
 como repelente, ropa larga
 
-21
+22
 00:00:43,248 --> 00:00:44,972
 y mosquiteros,
 
-22
+23
 00:00:44,972 --> 00:00:46,696
 algunas personas logran protegerse.
 
-23
+24
 00:00:46,696 --> 00:00:48,420
 Pero otras medidas también
 
-24
+25
 00:00:48,420 --> 00:00:50,144
 pueden ayudar.
 
-25
+26
 00:00:52,300 --> 00:00:54,031
 Las medidas colectivas marcan
 
-26
+27
 00:00:54,031 --> 00:00:55,762
 una gran diferencia.
 
-27
+28
 00:00:55,762 --> 00:00:57,494
 Las vacunas protegen a las personas
 
-28
+29
 00:00:57,494 --> 00:00:59,225
 incluso cuando son picadas.
 
-29
+30
 00:00:59,225 --> 00:01:00,956
 Los insecticidas reducen
 
-30
+31
 00:01:00,956 --> 00:01:02,688
 la población de mosquitos.
 
-31
+32
 00:01:02,688 --> 00:01:04,419
 La combinación de diferentes medidas
 
-32
+33
 00:01:04,419 --> 00:01:06,150
 fortalece la lucha
 
-33
+34
 00:01:06,150 --> 00:01:07,882
 contra la enfermedad.
 
-34
+35
 00:01:08,900 --> 00:01:10,778
 Cuando cuidamos el medio ambiente,
 
-35
+36
 00:01:10,778 --> 00:01:12,657
 retirando basura,
 
-36
+37
 00:01:12,657 --> 00:01:14,536
 tapando recipientes con agua
 
-37
+38
 00:01:14,536 --> 00:01:16,415
 y eliminando criaderos,
 
-38
+39
 00:01:16,415 --> 00:01:18,294
 los mosquitos pierden sus criaderos
 
-39
+40
 00:01:18,294 --> 00:01:20,173
 y no tienen dónde depositar sus huevos
 
-40
+41
 00:01:20,173 --> 00:01:22,052
 ni desarrollarse hasta la fase adulta!
 
-41
+42
 00:01:23,600 --> 00:01:25,963
 El ambiente marca toda la diferencia.
 
-42
+43
 00:01:25,963 --> 00:01:28,326
 La lluvia y la basura juntos
 
-43
+44
 00:01:28,326 --> 00:01:30,689
 producen más criaderos.
 
-44
+45
 00:01:30,689 --> 00:01:33,052
 La limpieza y el cuidado los eliminan.
 
-45
+46
 00:01:33,052 --> 00:01:35,415
 En áreas urbanas densas,
 
-46
+47
 00:01:35,415 --> 00:01:37,779
 el riesgo es aún mayor.
 
-47
+48
 00:01:38,800 --> 00:01:40,768
 El dengue tiene 4 serotipos diferentes
 
-48
+49
 00:01:40,768 --> 00:01:42,736
 y los mismos mosquitos que transmiten
 
-49
+50
 00:01:42,736 --> 00:01:44,704
 el Zika y el chikunguña.
 
-50
+51
 00:01:44,704 --> 00:01:46,672
 Pero con conocimiento
 
-51
+52
 00:01:46,672 --> 00:01:48,640
 y acción colectiva,
 
-52
+53
 00:01:48,640 --> 00:01:50,608
 podemos ganar esta batalla.
 
-53
+54
 00:01:50,608 --> 00:01:52,576
 Protégete.
 
-54
+55
 00:01:52,576 --> 00:01:54,544
 Protege a tu comunidad.
 
-55
+56
 00:01:54,544 --> 00:01:56,512
 Cuida el medio ambiente.
 

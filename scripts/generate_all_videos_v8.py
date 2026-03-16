@@ -1,7 +1,7 @@
 """
 Gerar 3 vídeos (PT, EN, ES) usando video_only_EN.mp4 como base visual.
-v8: EN com narrações e legendas corrigidas conforme commit 71fed48.
-PT e ES: reutilizam narrações v7 (sem alteração).
+v8: Todos os 3 idiomas com narrações regeneradas fielmente conforme roteiros do GitHub.
+EN corrigido conforme commit 71fed48. PT e ES regenerados para consistência total.
 """
 import subprocess
 import os
@@ -33,9 +33,9 @@ SCENE_ENDS = {
 
 # Diretórios de narração por idioma
 NARR_DIRS = {
-    "pt": "/home/ubuntu/narration_pt_v7",
-    "en": "/home/ubuntu/narration_en_v8",   # v8 corrigido
-    "es": "/home/ubuntu/narration_es_v7",
+    "pt": "/home/ubuntu/narration_pt_v8",
+    "en": "/home/ubuntu/narration_en_v8",
+    "es": "/home/ubuntu/narration_es_v8",
 }
 
 # Legendas corrigidas
@@ -202,7 +202,8 @@ SUBTITLE_TEXTS = {
             "para que sus huevos se desarrollen.",
             "Los síntomas del dengue incluyen",
             "fiebre alta, dolor de cabeza intenso,",
-            "dolores corporales y manchas rojas."
+            "dolores corporales y manchas rojas",
+            "en la piel."
         ],
         3: [
             "Con medidas individuales,",
