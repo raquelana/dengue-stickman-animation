@@ -66,8 +66,8 @@ eliminando mosquitos com nuvem de inseticida. Os mosquitos restantes diminuem vi
 Contador: Picados 4/8, Infectados 1/8 (barra amarela).
 
 **Narração:** "Medidas coletivas fazem uma grande diferença! Vacinas, quando disponíveis, protegem as 
-pessoas mesmo quando picadas. Inseticidas reduzem a população de mosquitos. A combinação 
-de diferentes medidas fortalece o combate à doença."
+pessoas mesmo quando picadas. O controle químico, quando é seguro para o ambiente, pode ser útil para 
+reduzir a população de mosquitos. A combinação de diferentes medidas fortalece o combate à doença."
 
 | Indicador | Valor |
 |---|---|
@@ -118,9 +118,9 @@ Texto animado aparece: "Dengue: conhecer para prevenir." Abaixo: "Já pensou tam
 em pesquisar sobre outras doenças como a malária, leishmaniose e Chagas?" Rodapé: 
 "Science is Wonderful! 2026 — Bruxelas".
 
-**Narração:** "A dengue possui 4 sorotipos diferentes e os mesmos mosquitos que 
-transmitem a Zika e a chikungunya. Mas com conhecimento e ação coletiva, podemos 
-vencer essa batalha. Proteja-se. Proteja sua comunidade. Cuide do ambiente."
+**Narração:** "Os mesmos mosquitos que transmitem a dengue, também transmitem a Zika 
+e a chikungunya. Mas com conhecimento e ação coletiva, podemos vencer essa batalha. 
+Proteja-se. Proteja sua comunidade. Cuide do ambiente."
 
 ---
 
@@ -128,7 +128,7 @@ vencer essa batalha. Proteja-se. Proteja sua comunidade. Cuide do ambiente."
 
 **Equipe SiW 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) e Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
-**Roteiro e vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz).
+**Roteiro e vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz). 
 
 **Financiamento:** RML foi financiada pela União Europeia (Marie Sklodowska-Curie Actions, 
 nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 
