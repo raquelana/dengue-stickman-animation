@@ -130,7 +130,8 @@ Protect your community. Take care of the environment."
 
 **SiW Team 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) and Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
-**Script and video:** Diego Ricardo Xavier (ICICT/Fiocruz). Assisted by OpenAI.
+**Script and video:** Diego Ricardo Xavier (ICICT/Fiocruz) with the aid of generative artificial 
+intelligence for animation and synthetic narration.
 
 **Funding:** RML was funded by the European Union (Marie Sklodowska-Curie Actions, 
 grant agreement 101109642). We acknowledge the support of the HARMONIZE project 

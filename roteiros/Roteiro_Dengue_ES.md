@@ -13,11 +13,11 @@
 **Descripción visual:** Fondo blanco con cielo en degradado azul claro. El Narrador 
 (figura de palito con bata blanca y gafas) aparece a la izquierda. A la derecha, una 
 secuencia animada muestra el ciclo de vida del *Aedes aegypti*: huevo, larva, pupa y 
-mosquito adulto, con flechas indicando la progresión. Al lado, aparece el *Aedes 
-albopictus* (mosquito tigre) con rayas blancas visibles. En la parte inferior, un 
-recipiente con agua estancada y huevos siendo depositados.
+mosquito adulto, con flechas indicando la progresión. Al lado, aparece el *Aedes albopictus* 
+(mosquito tigre) con rayas blancas visibles. En la parte inferior, un recipiente 
+con agua estancada y huevos siendo depositados.
 
-**Narración:** "Este es el *Aedes aegypti*, transmite el virus del Dengue. El 
+**Narración:** "Este es el *Aedes aegypti*, transmite el virus Dengue. El 
 *Aedes albopictus*, más conocido como mosquito tigre, también puede transmitir este virus. 
 Las hembras de *Aedes* depositan sus huevos en agua estancada. Un huevo tarda entre 
 7 y 10 días en convertirse en un mosquito adulto."
@@ -67,9 +67,11 @@ reciben vacunas (💉), obteniendo escudos dorados de protección. Un camión de
 recorre la calle, eliminando mosquitos con una nube de insecticida. Los mosquitos restantes 
 disminuyen visiblemente. Contador: Picados 4/8, Infectados 1/8 (barra amarilla).
 
-**Narración:** "Las medidas colectivas marcan una gran diferencia! Las vacunas, cuando estén disponibles, protegen 
-a las personas incluso cuando son picadas. Los insecticidas reducen la población de mosquitos.
-La combinación de diferentes medidas fortalece la lucha contra la enfermedad."
+**Narración:** "Las medidas colectivas marcan una gran diferencia! Las vacunas, cuando 
+estén disponibles, protegen a las personas incluso cuando son picadas. El control químico, 
+cuando no representa un riesgo para el medio ambiente, puede ser útil para reducir las 
+poblaciones de mosquitos. La combinación de diferentes medidas fortalece la lucha contra 
+la enfermedad."
 
 | Indicador | Valor |
 |---|---|
@@ -121,9 +123,9 @@ de la pantalla. Texto animado aparece: "Dengue: conocer para prevenir." Debajo: 
 pensado también en investigar otras enfermedades como la malaria, leishmaniasis y Chagas?" 
 Pie de página: "Science is Wonderful! 2026 — Bruselas".
 
-**Narración:** "El dengue tiene 4 serotipos diferentes y los mismos mosquitos que transmiten 
-el Zika y el chikunguña. Pero con conocimiento y acción colectiva, podemos ganar 
-esta batalla. Protégete. Protege a tu comunidad. Cuida el medio ambiente."
+**Narración:** "Los mismos mosquitos que transmiten el dengue también transmiten el Zika y 
+el chikungunya. Pero con conocimiento y acción colectiva, podemos ganar esta batalla. Protégete. 
+Protege a tu comunidad. Cuida el medio ambiente."
 
 ---
 
@@ -131,7 +133,8 @@ esta batalla. Protégete. Protege a tu comunidad. Cuida el medio ambiente."
 
 **Equipo SiW 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) y Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
-**Guión y vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz).
+**Guión y vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz) con la ayuda de inteligencia 
+artificial generativa para animación y narración sintética.
 
 **Financiación:** RML fue financiada por la Unión Europea (Marie Sklodowska-Curie Actions, nº 
 proyecto 101109642). Agradecemos el apoyo del proyecto HARMONIZE (Wellcome Trust, nº proyecto: 

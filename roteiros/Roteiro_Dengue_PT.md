@@ -128,7 +128,8 @@ Proteja-se. Proteja sua comunidade. Cuide do ambiente."
 
 **Equipe SiW 2026:** Raquel Martins Lana (GHR/BSC), Andria Nicodemou (ESS/BSC) e Tatiana Docile (UERJ).  
 **Booth #18** — Health detectives: how diseases spread through insects.  
-**Roteiro e vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz). 
+**Roteiro e vídeo:** Diego Ricardo Xavier (ICICT/Fiocruz), com auxílio de inteligência artificial 
+generativa para animação e narração sintética.
 
 **Financiamento:** RML foi financiada pela União Europeia (Marie Sklodowska-Curie Actions, 
 nº projeto 101109642). Agradecemos o apoio do projeto HARMONIZE (Wellcome Trust, nº projeto: 
